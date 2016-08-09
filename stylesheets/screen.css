@@ -66,3 +66,68 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 112, sprites/*.png */
+.sprites-sprite, .dimensoes-box .ico-mobile, .dimensoes-box .ico-small-tablet, .dimensoes-box .ico-tablet, .dimensoes-box .ico-iphone4, .dimensoes-box .ico-iphone5, .dimensoes-box .ico-17-display, .dimensoes-box .ico-30-apple, .dimensoes-box .ico-maximizar, .dimensoes-box .ico-widescreen {
+  background-image: url('/tools/emulador-dimensoes/img/sprites-sb9907263f8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 10, ../sass/screen.scss */
+.dimensoes-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+/* line 16, ../sass/screen.scss */
+.dimensoes-box li {
+  display: inline-block;
+  float: left;
+}
+/* line 21, ../sass/screen.scss */
+.dimensoes-box [class^="ico-"] {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  width: 53px;
+  height: 56px;
+  display: inline-block;
+}
+/* line 28, ../sass/screen.scss */
+.dimensoes-box .ico-mobile {
+  background-position: 0 -265px;
+}
+/* line 32, ../sass/screen.scss */
+.dimensoes-box .ico-small-tablet {
+  background-position: 0 -321px;
+}
+/* line 36, ../sass/screen.scss */
+.dimensoes-box .ico-tablet {
+  background-position: 0 -377px;
+}
+/* line 40, ../sass/screen.scss */
+.dimensoes-box .ico-iphone4 {
+  background-position: 0 -106px;
+}
+/* line 44, ../sass/screen.scss */
+.dimensoes-box .ico-iphone5 {
+  background-position: 0 -159px;
+}
+/* line 48, ../sass/screen.scss */
+.dimensoes-box .ico-17-display {
+  background-position: 0 0;
+}
+/* line 52, ../sass/screen.scss */
+.dimensoes-box .ico-30-apple {
+  background-position: 0 -53px;
+}
+/* line 56, ../sass/screen.scss */
+.dimensoes-box .ico-maximizar {
+  background-position: 0 -212px;
+}
+/* line 60, ../sass/screen.scss */
+.dimensoes-box .ico-widescreen {
+  background-position: 0 -430px;
+}

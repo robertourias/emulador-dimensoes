@@ -4,3 +4,60 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/typography";
+@import "sprites/*.png";
+
+.dimensoes-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+
+  li {
+    display: inline-block;
+    float: left;
+  }
+
+  [class^="ico-"] {
+    @include hide-text;
+    width: 53px;
+    height: 56px;
+    display: inline-block;
+  }
+
+  .ico-mobile {
+    @include sprites-sprite("mobile");
+  }
+
+  .ico-small-tablet {
+    @include sprites-sprite("small-tablet");
+  }
+
+  .ico-tablet {
+    @include sprites-sprite("tablet");
+  }
+
+  .ico-iphone4 {
+    @include sprites-sprite("iphone4");
+  }
+
+  .ico-iphone5 {
+    @include sprites-sprite("iphone5");
+  }
+
+  .ico-17-display {
+    @include sprites-sprite("17-display");
+  }
+
+  .ico-30-apple {
+    @include sprites-sprite("30-apple");
+  }
+
+  .ico-maximizar {
+    @include sprites-sprite("maximizar");
+  }
+
+  .ico-widescreen {
+    @include sprites-sprite("widescreen");
+  }
+}
